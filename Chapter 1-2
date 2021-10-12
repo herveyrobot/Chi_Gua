@@ -1,0 +1,6 @@
+模型： 泛指从数据中学到的结果。也有文献用模型指全局结果，模式指局部性结果。
+Data Set: 数据的集合。每条数据为一个instance 或者 sample。
+学习器在训练集上的误差称为 training error or empirical error，新样本上的误差称为 generalization error。
+留出法 hold-out: 将数据集划分两个互斥的集合，一个为训练集，一个为测试集。
+交叉验证法 cross validation: 将数据集分为k个大小相似的互斥子集。每次用k-1个子集的并集作为训练集，余下的子集作为测试集，从而得到k个测试结果的均值。
+自助法 bootstrapping： 每次从数据集中取出M个样本放入新的数据集，再将样本放回去，连续采样m次。
