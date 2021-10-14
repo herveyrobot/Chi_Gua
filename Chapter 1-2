@@ -8,6 +8,18 @@ The attribute value is value of attibute.
 
 sample 的维数为 dimensionality.
 
+预测的为离散值为分类---classification;若为连续值则为回归---regression
+
+二分类为binary classification, 具体为 positive class & negative class;
+
+多分类： multi-class classification;
+
+数据是否有标记信息可分为supervised learning & unsupervised learning。
+
+
+
+
+
 学习器在训练集上的误差称为 training error or empirical error，新样本上的误差称为 generalization error。
 留出法 hold-out: 将数据集划分两个互斥的集合，一个为训练集，一个为测试集。
 交叉验证法 cross validation: 将数据集分为k个大小相似的互斥子集。每次用k-1个子集的并集作为训练集，余下的子集作为测试集，从而得到k个测试结果的均值。
