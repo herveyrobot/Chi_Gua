@@ -16,6 +16,8 @@ sample 的维数为 dimensionality.
 
 数据是否有标记信息可分为supervised learning & unsupervised learning。
 
+归纳与演绎： induction & deduction 对应 generalization & specialization
+
 
 
 
